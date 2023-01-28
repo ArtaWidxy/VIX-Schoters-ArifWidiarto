@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/business"
+            android:title="Bisnis" />
+        <item
+            android:id="@+id/entertainment"
+            android:title="Entertaiment" />
+        <item
+            android:id="@+id/health"
+            android:title="Kesehatan" />
+        <item
+            android:id="@+id/science"
+            android:title="Ilmiah" />
+        <item
+            android:id="@+id/sports"
+            android:title="Olahraga" />
+        <item
+            android:id="@+id/technology"
+            android:title="Teknologi" />
+    </group>
+
+    <item android:title="Keluar">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="Tentang Kami" />
+            <item
+                android:id="@+id/logout"
+                android:title="Keluar" />
+        </menu>
+    </item>
+
+</menu>
